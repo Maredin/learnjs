@@ -1,0 +1,10 @@
+*{
+  user-select: none;
+}
+li span {
+  cursor: pointer;
+
+}
+li span:hover {
+  font-weight: 700;
+}

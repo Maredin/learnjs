@@ -1,0 +1,23 @@
+*{
+  user-select: none;
+}
+li span {
+  cursor: pointer;
+
+}
+li span:hover {
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid;
+  padding: 5px;
+}
+th {
+  cursor: pointer;
+}
+th:hover {
+  background: rgb(223, 221, 221);
+}

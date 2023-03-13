@@ -1,0 +1,12 @@
+*{
+  user-select: none;
+}
+.hide {
+  display: none;
+}
+.title {
+  cursor: pointer;
+}
+.open, .close {
+  color: green;
+}

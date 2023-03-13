@@ -1,0 +1,79 @@
+*{
+  user-select: none;
+}
+.arrow {
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+.left {
+  left: 20px;
+}
+.right{
+  right: 20px;
+}
+
+ul {
+  height: 130px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  position: relative;
+  left: 0px;
+  transition: left 0.5s;
+  -webkit-transition: left 0.5s;
+  -moz-transition: left 0.5s;
+  -ms-transition: left 0.5s;
+  -o-transition: left 0.5s;
+}
+
+ul img {
+  width: 130px;
+  height: 130px;
+  display: block; /* убираем пустое место вокруг картинок */
+}
+
+ul li {
+  display: inline-block; /* убираем пустое место между элементами списка */
+}
+
+.container {
+  width: 390px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.box {
+  width: 500px;
+  background: rgb(206, 205, 205);
+  position: relative;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}

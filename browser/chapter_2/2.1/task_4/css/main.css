@@ -1,0 +1,24 @@
+body {
+  height: 2000px;
+  user-select: none;
+}
+#field {
+  width: 200px;
+  height: 150px;
+  border: 10px solid black;
+  background-color: #00FF00;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+
+}
+#ball {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
